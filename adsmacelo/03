@@ -1,0 +1,56 @@
+Receba um número e informa se o mesmo é par
+
+#include <stdio.h>
+int main(){
+	int number;
+	printf("Entre com o número:");
+	scanf("%d",&number);
+    if(number % 2 == 0) {
+        printf("Seu número é par");
+    }
+    else {
+        printf("Não é par.");
+    }
+	return 0;
+}
+
+
+
+Receba um número e informa se o mesmo é ímpar
+
+int main(){
+	int number;
+	printf("Entre com o número:");
+	scanf("%d",&number);
+    if(number % 2 != 0) {
+        printf("Seu número é ímpa");
+    }
+    else {
+        printf("Não é ímpar.");
+    }
+	return 0;
+}
+
+
+
+
+Receba um número é informar se o número informado é par ou ímpar.
+
+#include <stdio.h>
+
+int main(){
+	int number;
+	printf("Entre com o número:");
+	scanf("%d",&number);
+    if(number % 2 == 0) {
+        printf("Seu número é par");
+    }
+    else if (number % 2 != 0) {
+        printf("Seu número é impar");
+    }
+	return 0;
+}
+
+
+
+
