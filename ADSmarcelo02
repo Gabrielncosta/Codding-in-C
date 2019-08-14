@@ -1,0 +1,111 @@
+Faça um programa que escreva seu nome na tela
+
+printf("Gabriel");
+
+Faça um programa que escreva o nome completo de 5 colegas da sala separados por vírgulas em uma única
+linha utilizando um único comando printf.
+
+printf("Gabriel, Victor, Jamal, Guilheme, Pedro")
+
+Faça um programa que escreva o nome completo de 5 colegas da sala separados por vírgulas em uma única linha
+onde cada nome deve ser escrito por um printf diferente.
+
+printf("Gabriel, ");
+printf("Victor, ");
+printf("Jamal, ");
+printf("Guilheme ");
+printf("Pedro ");
+
+Faça um programa que escreva o nome completo de 5 colegas da sala, sendo um nome por linha utilizando um único comando printf
+
+printf("Gabriel\n Victor\n Jamal\n Guilheme\n Pedro\n")
+
+Faça um programa que escreva o nome completo de 5 colegas, sendo um nome por linha utilizando 5 instrução printf.
+
+printf("Gabriel\n ");
+printf("Victor\n ");
+printf("Jamal\n");
+printf("Guilheme\n");
+printf("Pedro\n");
+
+Faça um programa que escreva na tela a letra de sua música preferida (se a música não tiver letra escrever as notas).
+
+printf("Steve walks warily down the street \n With the brim pulled way down low \n Ain't no sound but the sound of his feet \n Machine guns ready to go");
+
+Asciiarte permite desenhar coisas utilizando os caracteres do teclado, no site http://www.asciiarte.com/index.html
+ é possível visualizar vários exemplos. Faça um programa que imprima na tela uma asciiarte 
+ (Não é permitido fazer smille ou desenhos de uma linha).
+
+ 
+ 
+Analise o código C a seguir e responda o que ele faz
+
+Ele retorna o nome inteiro após juntar as três partes.
+
+9. Analise o código C a seguir e responda o que ele faz
+
+Ele retorna o nome inteiro após juntar as três partes.
+
+10. O código 9 não dá espaço entre o nome e o sobrenome.
+
+
+    ponto e vígula faltando.
+11. #include <stdio.h>
+    int main(){
+	printf("tenho fe que este programa vai compilar."); 
+	return 0;
+}
+
+    aspas faltando
+12. #include <stdio.h>
+int main(){
+	printf("tenho fe que este programa vai compilar.);
+	return 0;
+}
+
+13. include faltando.
+    #include <stdio.h>
+    int main(){
+	printf("tenho fe que este programa vai compilar.");
+	return 0;
+}
+
+14. 
+#include <stdio.h>
+int main(){
+	int numero, dobro;
+	printf("Entre com o numero: ");
+	scanf("%d", &numero);
+	dobro = numero * 2;
+	printf("O dobro de %d e %d",numero,dobro);
+	return 0;
+}
+
+15.
+ o poblema é a falta do & antes de idade.
+#include <stdio.h>
+int main(){
+	int idade;
+	printf("Entre com a sua idade: ");
+	scanf("%d", &idade);
+	printf("Voce nasceu em %d", 2016 - idade);
+	return 0;
+}
+
+16. 
+Cada youtuber tem uma quantidade de seguidores, supondo que dois youtuber decida
+ juntar seus canais e todos os seus seguidores irão se inscrever neste novo canal.
+  Faça um programa que recebe a quantidade de seguidores de cada canal, a quantidade 
+  de seguidores que seguem ambos os canais e em seguida exiba a quantidade total de seguidores que o novo canal terá.
+
+#include <stdio.h>
+int main(){
+	int canal1;
+    int canal2;
+	printf("Entre com o primeiro canal: ");
+	scanf("%d", &canal1);
+    printf("Entre com segundo canal: ");
+	scanf("%d", &canal2);
+	printf("O total de seguidores será %d", canal1 + canal2);
+	return 0;
+}
